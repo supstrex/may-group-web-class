@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Html forms</title>
+  </head>
+  <body>
+    <h1>Lets experiment with forms</h1>
+    <form action="">
+      <fieldset>
+        <legend>Personal data</legend>
+        <label for="FirstName">First Name:</label>
+        <input type="text" name="FirstName" id="FirstName" />
+        <br /><br />
+        <label for="LastName">Last Name</label>
+        <input type="text" name="LastName" id="LastName" /><br /><br />
+        <label for="Gender">Gender</label>
+        <select name="'Gender" id="Gender">
+          <option value="Male">Male</option>
+          <option value="Female">Female</option>
+          <option value="NotSure">Not sure</option>
+        </select>
+
+        <p>Please select all languages you speak.</p>
+        <label for="language1">Armenian</label>
+        <input type="checkbox" name="language1" id="language1" />
+        <label for="language2">English</label>
+        <input type="checkbox" name="language2" id="language2" />
+        <label for="language3">Russian</label>
+        <input type="checkbox" name="language3" id="language3" />
+        <label for="language4">Mozambique</label>
+        <input type="checkbox" name="language4" id="language4" />
+
+        <p>Next one is a datalist element.</p>
+        <p>Enter the best TV show of all times</p>
+        <input list="TVShows" name="TVShows" />
+        <datalist id="TVShows">
+          <option value="The Breaking Bad">The Breakeing Bad</option>
+          <option value="Vikings">Vikings</option>
+          <option value="Game Of Thrones">Game of Thrones</option>
+        </datalist>
+        <br /><br />
+        <input type="submit" value="Submit" />
+        <input type="reset" />
+      </fieldset>
+    </form>
+
+    <p>Please rate the skeleton of our platform.</p>
+    <form action="">
+      <input type="radio" name="vote" id="shitty" />
+      <label for="shity">Shitty</label>
+      <input type="radio" name="vote" id="bad" />
+      <label for="bad">Bad</label>
+      <input type="radio" name="vote" id="good" />
+      <label for="good">Good</label><br /><br />
+      <input type="submit" value="Don't even try to select the first option!" />
+    </form>
+
+    <p>
+      Now that you are one of our members, we would like to reseive some
+      comments from you
+    </p>
+    <form action="">
+      <textarea name="Comment" cols="30" rows="10">
+We are open for your comments, but we are not gonna answer ya!
+    </textarea
+      ><br /><br />
+      <input type="submit" value="Submit" />
+    </form>
+  </body>
+</html>
