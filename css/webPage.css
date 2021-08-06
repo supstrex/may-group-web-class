@@ -1,0 +1,106 @@
+body {
+  background-image: url(/pictures/Web1.jpg);
+  font-family: courier, arial, helvetica;
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+  background-color: transparent;
+  margin-left: 200px;
+}
+li {
+  float: left;
+}
+li p {
+  display: inline-block;
+  color: white;
+  margin-right: 300px;
+  font-size: 20px;
+}
+li a {
+  display: block;
+  color: white;
+  text-decoration: none;
+  padding: 15px 30px;
+  font-size: 15px;
+}
+li button {
+  font-family: courier, arial, helvetica;
+  background-color: transparent;
+  color: white;
+  border-radius: 6px;
+  font-size: 15px;
+  border-color: white;
+  border-style: solid;
+  padding: 15px 30px;
+}
+
+li a:hover {
+  background-color: #2b73e0;
+}
+#leftSide {
+  margin: 110px;
+  margin-left: 200px;
+  margin-right: 40px;
+  background-color: transparent;
+  position: absolute;
+  width: 500px;
+  float: left;
+  color: white;
+}
+#seePricing {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #27ba3b;
+  color: white;
+  border-radius: 15px;
+  font-size: 15px;
+  padding: 10px 20px;
+  border: hidden;
+}
+#leftSide h1 {
+  font-weight: lighter;
+  font-size: 50px;
+}
+#leftSide p {
+  font-size: 20px;
+}
+#leftSide a {
+  text-decoration: none;
+  color: #b9bdb9;
+}
+#rightSide {
+  position: relative;
+  float: right;
+  background-color: white;
+  width: 450px;
+  height: 370px;
+  margin: 100px;
+  margin-right: 200px;
+  box-shadow: 10px 10px 20px 5px #087cc4, -10px -10px 20px 5px #087cc4;
+}
+#rightSide h2 {
+  margin-top: 40px;
+  font-weight: normal;
+  text-align: center;
+  font-size: 30px;
+}
+#rightSide form {
+  width: 300px;
+  margin: auto;
+}
+form input,
+select {
+  width: 300px;
+  height: 35px;
+  background-color: #e6eaf0;
+  margin: 5px;
+  border: hidden;
+  color: gray;
+}
+#register {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #2b73e0;
+  color: white;
+  border-radius: 15px;
+  font-size: 15px;
+}
