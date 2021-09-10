@@ -4,5 +4,5 @@ let multiplication = function(num){
         console.log(`${num} * ${index} = ${result}`);
     }
 } 
-
+//lets check
 multiplication(3)
